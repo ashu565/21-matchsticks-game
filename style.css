@@ -1,0 +1,91 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.enter-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem 2rem;
+  height: 100vh;
+  gap: 0.5rem;
+  align-items: center;
+}
+.input-name {
+  padding: 0.2rem 0.4rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 0.2rem;
+  min-width: 45rem;
+  border: 1px solid rgb(116, 116, 111);
+}
+.title {
+  color: #08d9d6;
+}
+span {
+  display: flex;
+}
+.submit-btn {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.game-page {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem 2rem;
+  /* height: 100vh; */
+  align-items: center;
+}
+.player-turn {
+  color: #ff2e63;
+}
+
+.matchstick-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.2rem;
+}
+
+.matchstick {
+  height: 1rem;
+  width: 10rem;
+  background-color: #252a34;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.player {
+  color: #ff2e63;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.computer {
+  color: #08d9d6;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.history {
+  padding: 3rem 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}

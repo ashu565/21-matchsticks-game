@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>21 Match Sticks Game</title>
+</head>
+<body>
+    <div class="enter-page">
+        <h2 class="title">Welcome to Computer's world</h2>
+        <input class="input-name" placeholder="Enter Your Name" ></input>
+        <span>
+            <button class="submit-btn" >Enter To the Game World</button>
+        </span>
+    </div>
+    <div class="game-page" >
+        <h2 class="title">Player Name</h2>
+        <h3 id="playerName" class="player-turn">Ashutosh Singh</h3>
+        <h4 id="matchstickCount" class="player-turn">Available Match Sticks : 21</h4>
+        <h4 class="player-turn">The player who makes availble sticks to 0 first, he will loose</h4>
+        <h4 class="player-turn">The Player can choose matchsticks between 1 and 4</h4>
+        <div class="matchstick-container" >
+        </div>
+        <input id="input-score" type="number" class="input-name" placeholder="Select MatchSticks between 1 and 4" ></input>
+        <span>
+            <button id="input-score-button" class="submit-btn" >Submit</button>
+        </span>
+        <div class="history">
+            
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
